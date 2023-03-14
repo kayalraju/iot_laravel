@@ -15,7 +15,7 @@ class FetchDataController extends Controller
     public function fetch_data(){
         // $url = Http::get("https://io.adafruit.com/api/v2/NLServer/feeds/car.sumanlong/data?X-AIO-Key=aio_FsLo68DYBJ1qB3HzczxEKME613Uh");
         // $data=json_decode($url);
-        $sosdata = Http::get("https://io.adafruit.com/api/v2/NLServer/feeds/car.sumanpolice/data?X-AIO-Key=aio_FsLo68DYBJ1qB3HzczxEKME613Uh");
+        $sosdata = Http::get("https://io.adafruit.com/api/v2/NLServer/feeds/car.sumanpolice/data?X-AIO-Key=aio_lIQJ06MEcOVGyOymyDlzzdaYovvD");
         $data=json_decode($sosdata);
         
         //return $data;
